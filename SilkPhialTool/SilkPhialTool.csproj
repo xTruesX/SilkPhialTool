@@ -104,5 +104,22 @@
     <Compile Include="main.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\AssetBundle\silkphial" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\demoanimation\1.png" />
+    <Content Include="Assets\demoanimation\2.png" />
+    <Content Include="Assets\demoanimation\3.png" />
+    <Content Include="Assets\demoanimation\4.png" />
+    <Content Include="Assets\demoanimation\5.png" />
+    <Content Include="Assets\demoanimation\6.png" />
+    <Content Include="Assets\demoanimation\7.png" />
+    <Content Include="Assets\demoanimation\8.png" />
+    <Content Include="Assets\demoanimation\SilkPhialSpritesheet.png" />
+    <Content Include="Assets\ItemTextures\SilkPhial.png" />
+    <Content Include="Assets\ItemTextures\SilkPhial_Empty.png" />
+    <Content Include="Assets\ItemTextures\SilkPhial_Poison.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
